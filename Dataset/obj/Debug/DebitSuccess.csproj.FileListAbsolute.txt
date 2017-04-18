@@ -1,0 +1,10 @@
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\Dataset\DebitSuccess\DebitSuccess\bin\Debug\DebitSuccess.dll
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\Dataset\DebitSuccess\DebitSuccess\bin\Debug\DebitSuccess.pdb
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\Dataset\DebitSuccess\DebitSuccess\obj\Debug\DebitSuccess.dll
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\Dataset\DebitSuccess\DebitSuccess\obj\Debug\DebitSuccess.pdb
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\Dataset\DebitSuccess\DebitSuccess\obj\Debug\DebitSuccess.csprojResolveAssemblyReference.cache
+C:\DebitSuccess\Dataset\bin\Debug\DebitSuccess.dll
+C:\DebitSuccess\Dataset\bin\Debug\DebitSuccess.pdb
+C:\DebitSuccess\Dataset\obj\Debug\DebitSuccess.csprojResolveAssemblyReference.cache
+C:\DebitSuccess\Dataset\obj\Debug\DebitSuccess.dll
+C:\DebitSuccess\Dataset\obj\Debug\DebitSuccess.pdb

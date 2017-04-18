@@ -1,0 +1,18 @@
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\bin\WcfDebitSuccess.dll.config
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\bin\WcfDebitSuccess.dll
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\bin\WcfDebitSuccess.pdb
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\bin\DebitSuccess.dll
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\bin\System.Data.SQLite.dll
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\bin\DebitSuccess.pdb
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\obj\Debug\WcfDebitSuccess.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\obj\Debug\WcfDebitSuccess.dll
+C:\Users\Chris\Documents\Visual Studio 2017\Projects\DebitSuccess\WcfDebitSuccess\obj\Debug\WcfDebitSuccess.pdb
+C:\DebitSuccess\Wcf\bin\WcfDebitSuccess.dll.config
+C:\DebitSuccess\Wcf\bin\WcfDebitSuccess.dll
+C:\DebitSuccess\Wcf\bin\WcfDebitSuccess.pdb
+C:\DebitSuccess\Wcf\bin\DebitSuccess.dll
+C:\DebitSuccess\Wcf\bin\System.Data.SQLite.dll
+C:\DebitSuccess\Wcf\bin\DebitSuccess.pdb
+C:\DebitSuccess\Wcf\obj\Debug\WcfDebitSuccess.dll
+C:\DebitSuccess\Wcf\obj\Debug\WcfDebitSuccess.pdb
+C:\DebitSuccess\Wcf\obj\Debug\WcfDebitSuccess.csprojResolveAssemblyReference.cache
