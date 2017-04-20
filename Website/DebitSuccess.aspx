@@ -9,12 +9,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: Calibri
+        }
+    </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <table>
-                <tr><td></td></tr>
+            <table class="standard">
+                <tr>
+                    <td></td>
+                </tr>
                 <tr>
                     <td>Fist Name</td>
                     <td>
@@ -34,13 +44,20 @@
                     <td>
                         <input id="btnDelete" type="button" value="Delete" />
                     </td>
+                    <td>
+                        <input id="btnReset" type="button" value="Reset" />
+                    </td>
                 </tr>
             </table>
         </div>
         <div>
             <table>
-                <tr><td></td></tr>
-                <tr><td>Search:</td></tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Search:</td>
+                </tr>
                 <tr>
                     <td>Fist Name</td>
                     <td>
@@ -54,10 +71,12 @@
                         <input id="btnSearch" type="button" value="Search" />
                     </td>
                 </tr>
-                <tr><td></td></tr>
+                <tr>
+                    <td></td>
+                </tr>
             </table>
         </div>
-        <table id="results" class="display" width="100%">
+        <table id="results" class="display dynatable" width="100%">
             <thead>
                 <tr>
                     <th>Id</th>
