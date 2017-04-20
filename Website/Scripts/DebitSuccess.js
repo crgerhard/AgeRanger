@@ -8,6 +8,7 @@ function setupForm() {
     $('#btnAdd').click(savePerson);
     $('#btnDelete').click(deletePerson);
     $('#btnSearch').click(searchPerson);
+    $('#btnReset').click(resetForm);
     loadPersons();
 };
 
@@ -42,6 +43,10 @@ function finishLoadPersons(data) {
             sorting: false,
             search: false,
         },
+        table: {
+            copyHeaderClass: true,
+
+        }
     }).data('dynatable');
     dynatable.settings.dataset.originalRecords = data;
     dynatable.process();
