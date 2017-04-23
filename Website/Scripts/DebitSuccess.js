@@ -6,10 +6,12 @@ $(document).ready(function () {
 
 function setupForm() {
     $('#btnAdd').click(savePerson);
+    $('#btnUpdate').click(savePerson);
     $('#btnDelete').click(deletePerson);
     $('#btnSearch').click(searchPerson);
     $('#btnReset').click(resetForm);
     loadPersons();
+    setFormState();
 };
 
 function resetForm() {
@@ -19,7 +21,24 @@ function resetForm() {
     $('#txtAge').val('');
     $('#txtSearchFirstName').val('');
     $('#txtSearchLastName').val('');
+    setFormState();
 };
+
+function setFormState() {
+    $('.new').attr('disabled', personId > 0);
+    $('.edit').attr('disabled', personId == 0);
+    if (personId > 0) {
+        $('.new').addClass('buttonDisabled');
+    }
+
+    if (personId > 0) {
+        $('.new').addClass('buttonDisabled');
+        $('.edit').removeClass('buttonDisabled');
+    } else {
+        $('.new').removeClass('buttonDisabled');
+        $('.edit').addClass('buttonDisabled');
+    }
+}
 
 function loadPersons() {
     var data = $.ajax({
@@ -60,6 +79,7 @@ function finishLoadPersons(data) {
         $('#txtFirstName').val(data[1]);
         $('#txtLastName').val(data[2]);
         $('#txtAge').val(data[3]);
+        setFormState();
     });
 }
 
@@ -80,6 +100,7 @@ function finishLoadPerson(data) {
         $('#txtLastName').val(data.LastName);
         $('#txtAge').val(data.Age);
     }
+    setFormState();
 }
 
 var userData = function () {
@@ -118,6 +139,7 @@ function savePerson() {
             loadPersons();
         });
     }
+    setFormState();
 }
 
 function deletePerson() {
@@ -131,6 +153,7 @@ function deletePerson() {
         resetForm();
         loadPersons();
     });
+    setFormState();
 }
 
 var searchUserData = function () {
